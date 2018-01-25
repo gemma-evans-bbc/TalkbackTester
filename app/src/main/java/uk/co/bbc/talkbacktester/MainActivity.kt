@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.item_list_view_example -> transitionTo("List View", ListViewExampleFragment())
                 R.id.item_list_fragment_example -> transitionTo("List Fragment", ListFragmentExampleFragment())
                 R.id.item_preference_fragment_example -> transitionTo("Preference Fragment", PreferenceFragmentExampleFragment())
+                R.id.item_recycler_view_example -> transitionTo("Recycler View", RecyclerViewExampleFragment())
                 else -> transitionTo("Error", ErrorFragment())
             }
         })

@@ -10,4 +10,8 @@
     <item
         android:id = "@+id/item_preference_fragment_example"
         android:title = "@string/item_title_preference_fragment_example"/>
+
+    <item
+        android:id = "@+id/item_recycler_view_example"
+        android:title = "@string/item_title_recycler_view_example"/>
 </menu>

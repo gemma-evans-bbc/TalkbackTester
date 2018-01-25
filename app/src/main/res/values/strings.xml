@@ -27,4 +27,5 @@
     <string name="summary_parent_preference">summary of parent preference</string>
     <string name="title_child_preference">Child Preference</string>
     <string name="summary_child_preference">summary of child preference</string>
+    <string name="item_title_recycler_view_example">Recycler View</string>
 </resources>
