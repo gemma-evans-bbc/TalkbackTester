@@ -8,5 +8,43 @@
         <item>Pink</item>
         <item>White</item>
         <item>Orange</item>
+        <item>Black</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Turquoise</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="shapes">
+        <item>Rectangle</item>
+        <item>Square</item>
+        <item>Circle</item>
+        <item>Triangle</item>
+    </string-array>
+    <string-array name="animals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Guinea Pig</item>
+        <item>Gerbil</item>
+    </string-array>
+    <string-array name="entries_list_preference">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Guinea Pig</item>
+        <item>Gerbil</item>
+    </string-array>
+    <string-array name="entryvalues_list_preference">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Guinea Pig</item>
+        <item>Gerbil</item>
     </string-array>
 </resources>

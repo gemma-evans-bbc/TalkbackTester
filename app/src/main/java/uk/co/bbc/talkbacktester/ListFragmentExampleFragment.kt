@@ -14,6 +14,7 @@ class ListFragmentExampleFragment : ListFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         listAdapter =  ArrayAdapter<String>(context, R.layout.list_item, R.id.list_item_text_view, getResources().getStringArray(R.array.colours))
+
     }
 
 }

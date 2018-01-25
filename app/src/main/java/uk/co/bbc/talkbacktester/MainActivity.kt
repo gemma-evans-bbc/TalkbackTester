@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             when (menuItem.itemId) {
                 R.id.item_list_view_example -> transitionTo("List View", ListViewExampleFragment())
                 R.id.item_list_fragment_example -> transitionTo("List Fragment", ListFragmentExampleFragment())
+                R.id.item_preference_fragment_example -> transitionTo("Preference Fragment", PreferenceFragmentExampleFragment())
                 else -> transitionTo("Error", ErrorFragment())
             }
         })
