@@ -4,7 +4,6 @@ import android.content.res.Configuration
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
@@ -28,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         navigation.setNavigationItemSelectedListener ({  menuItem: MenuItem ->
             when (menuItem.itemId) {
                 R.id.item_list_view_example -> transitionTo("List View", ListViewExampleFragment())
+                R.id.item_list_fragment_example -> transitionTo("List Fragment", ListFragmentExampleFragment())
                 else -> transitionTo("Error", ErrorFragment())
             }
         })
@@ -64,10 +64,3 @@ class MainActivity : AppCompatActivity() {
 
 }
 
-class ErrorFragment : Fragment() {
-
-}
-
-class ListViewExampleFragment : Fragment() {
-
-}

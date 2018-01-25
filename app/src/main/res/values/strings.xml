@@ -3,4 +3,5 @@
     <string name="item_title_list_view_example">List View</string>
     <string name="drawer_open">drawer open</string>
     <string name="drawer_close">drawer close</string>
+    <string name="item_title_list_fragment_example">List Fragment Example</string>
 </resources>

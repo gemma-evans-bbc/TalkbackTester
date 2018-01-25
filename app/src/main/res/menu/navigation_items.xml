@@ -4,4 +4,7 @@
     <item
         android:id = "@+id/item_list_view_example"
         android:title="@string/item_title_list_view_example"/>
+    <item
+        android:id = "@+id/item_list_fragment_example"
+        android:title="@string/item_title_list_fragment_example"/>
 </menu>
