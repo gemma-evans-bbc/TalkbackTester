@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/navigation_items">
+    <item
+        android:id = "@+id/item_list_view_example"
+        android:title="@string/item_title_list_view_example"/>
+</menu>
